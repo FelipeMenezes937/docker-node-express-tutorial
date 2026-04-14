@@ -2,7 +2,7 @@
 
 Aplicação web simples em Node.js com Express que exibe uma página HTML.
 
-##Descrição
+## Descrição
 
 Este é um projeto de exemplo que demonstra como criar uma aplicação web com Node.js e Express, containerizada com Docker.
 
@@ -18,7 +18,7 @@ Este é um projeto de exemplo que demonstra como criar uma aplicação web com N
 - Node.js (versão 16 ou superior)
 - Docker (opcional)
 
-##Instalação Local
+## Instalação Local
 
 1. Clone o repositório
 2. Instale as dependências:
@@ -26,7 +26,7 @@ Este é um projeto de exemplo que demonstra como criar uma aplicação web com N
 npm install
 ```
 
-##Executando Localmente
+## Executando Localmente
 
 Inicie o servidor:
 ```bash
@@ -63,7 +63,7 @@ imagem_docker/
 └── .gitignore     # Arquivos ignorados pelo git
 ```
 
-##Tecnologias
+## Tecnologias
 
 - Node.js
 - Express.js
