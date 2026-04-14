@@ -4,7 +4,7 @@ Este projeto é um tutorial que ensina como criar uma imagem Docker para uma apl
 
 ## O que é Docker?
 
-Docker é uma plataforma que permite empacotar aplicações em containers. Containers são leves e containém tudo que a aplicação precisa para rodar (código, bibliotecas, configurações).
+Docker é uma plataforma que permite empacotar aplicações em containers. Containers são leves e contêm tudo que a aplicação precisa para rodar (código, bibliotecas, configurações).
 
 ## Pré-requisitos
 
@@ -84,7 +84,7 @@ Explicação:
 - `-p 8080:3000` - mapeamento de porta (host:container)
 - `FelipeMenezes937/app-node:1.0` - nome da imagem
 
-O servidorará disponível em `http://localhost:8080`
+O servidor estará disponível em `http://localhost:8080`
 
 ### 6. Ver Containers em Execução
 
@@ -113,7 +113,7 @@ Pode usar o nome do container ou o ID:
 sudo docker stop 236a4614201a
 ```
 
-##Entendendo o Dockerfile
+## Entendendo o Dockerfile
 
 O arquivo `Dockerfile` contém a receita para criar a imagem:
 
