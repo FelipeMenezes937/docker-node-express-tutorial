@@ -8,7 +8,7 @@ Docker é uma plataforma que permite empacotar aplicações em containers. Conta
 
 ## Pré-requisitos
 
-- Docker instalado
+- Docker instalado (com sudo)
 - Acesso ao terminal
 
 ## Passo a Passo
@@ -118,7 +118,7 @@ sudo docker stop 236a4614201a
 O arquivo `Dockerfile` contém a receita para criar a imagem:
 
 ```dockerfile
-FROM node:14          # Imagem base (Node.js versão 14)
+FROM node:16          # Imagem base (Node.js versão 16)
 WORKDIR /app-node     # Diretório de trabalho
 COPY . .             # Copia todos os arquivos
 RUN npm install      # Instala as dependências
