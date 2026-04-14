@@ -1,5 +1,5 @@
-FROM node:16
+FROM node:14
 WORKDIR /app-node
 COPY . .
-run npm install
+RUN npm install
 ENTRYPOINT npm start
